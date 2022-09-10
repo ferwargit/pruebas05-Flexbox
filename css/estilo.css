@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+:root {
+    --font-family: 'Open Sans', sans-serif;
+    --color: hsl(0, 0%, 100%);
+    --font-weight: 700;
+    --font-size: 3rem;
+}
+
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+body {
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    color: var(--color);
+}
+
+.padre {
+    background-color: hsl(0, 2%, 92%);
+}
+    .header {
+        background-color: hsl(214, 92%, 54%);
+        height: 162px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+        .titulo-header {
+            /* background-color: magenta; */
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    .nav-1 {
+        background-color: hsl(214, 100%, 34%);
+        height: 64.8px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+        .titulo-nav-1 {
+            /* background-color: magenta; */
+            height: 100%;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    .contenido {
+        background-color: yellowgreen;
+    }
+    .footer {
+        background-color: hsl(214, 92%, 54%);
+        height: 162px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+        .titulo-footer {
+            /* background-color: magenta; */
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
