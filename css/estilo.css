@@ -8,8 +8,8 @@
 }
 
 * {
-    margin: 10px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     border: 1px solid #000;
 }
@@ -19,14 +19,21 @@ body {
     font-family: var(--font-family);
     font-weight: var(--font-weight);
     color: var(--color);
+    background-color: hsl(0, 2%, 92%);
 }
 
 .padre {
-    background-color: hsl(0, 2%, 92%);
+    /* background-color: hsl(0, 2%, 92%); */
+    margin: 2rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+
 }
     .header {
         background-color: hsl(214, 92%, 54%);
         height: 162px;
+        margin: 0rem 0rem 2rem;
 
         display: flex;
         flex-direction: row;
@@ -36,10 +43,10 @@ body {
         .titulo-header {
             /* background-color: magenta; */
 
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
+            /* display: flex; */
+            /* flex-direction: row; */
+            /* justify-content: center; */
+            /* align-items: center; */
             
         }
     .nav-1 {
@@ -53,16 +60,42 @@ body {
     }
         .titulo-nav-1 {
             /* background-color: magenta; */
-            height: 100%;
+            /* height: 100%; */
 
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
+            /* display: flex; */
+            /* flex-direction: row; */
+            /* justify-content: center; */
+            /* align-items: center; */
         }
+
+
     .contenido {
-        background-color: yellowgreen;
+        background-color: transparent;
+        /* width: 100%; */
+        height: 1296px;
+        margin: 2rem 0  ;
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
     }
+        .nav-2 {
+            background-color: hsl(202, 100%, 61%);
+            /* width: 22.33%; */
+            flex: 1 1 39%;
+        }
+        main {
+            background-color: hsl(182, 96%, 32%);
+            flex: 2 1 100%;
+            margin: 0 2rem;
+        }
+        aside {
+            background-color: hsl(0, 0%, 65%);
+            flex: 1 1 39%;
+        }
+            
+
+
     .footer {
         background-color: hsl(214, 92%, 54%);
         height: 162px;
@@ -75,8 +108,8 @@ body {
         .titulo-footer {
             /* background-color: magenta; */
 
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
+            /* display: flex; */
+            /* flex-direction: row; */
+            /* justify-content: center; */
+            /* align-items: center; */
         }
