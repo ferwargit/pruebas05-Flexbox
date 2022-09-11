@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid #000; */
+    border: 1px solid #000;
 }
 
 body {
@@ -34,6 +34,7 @@ body {
         background-color: hsl(214, 92%, 54%);
         height: 162px;
         margin: 0rem 0rem 2rem;
+        padding-left: 3rem;
 
         display: flex;
         flex-direction: row;
@@ -41,8 +42,8 @@ body {
         align-items: center;
     }
         .titulo-header {
-            background-color: magenta;
-
+            /* background-color: magenta; */
+            
             /* display: flex; */
             /* flex-direction: row; */
             /* justify-content: center; */
@@ -51,6 +52,7 @@ body {
         }
     .nav-1 {
         background-color: hsl(214, 100%, 34%);
+        padding-left: 3rem;
         height: 64.8px;
 
         display: flex;
@@ -59,7 +61,7 @@ body {
         align-items: center;
     }
         .titulo-nav-1 {
-            background-color: magenta;
+            /* background-color: magenta; */
             /* height: 100%; */
 
             /* display: flex; */
@@ -89,7 +91,7 @@ body {
             align-items: center;
         }
             .titulo-nav-2 {
-                background-color: magenta;
+                /* background-color: magenta; */
                 margin: 2rem 0  ;
             }
             .div-nav-2 {
@@ -103,7 +105,63 @@ body {
             background-color: hsl(182, 96%, 32%);
             flex: 2 1 100%;
             margin: 0 2rem;
+
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: start;
+            align-items: center;
+            
         }
+            .titulo-main {
+                /* background-color: magenta; */
+                margin: 2rem 0;
+                padding-left: 2.5rem;
+                align-self: flex-start;
+            }
+            .secciones {
+                background-color: transparent;
+                color: hsl(270, 10%, 20%);
+                width: 87%;
+                height: 87%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+            }
+                .section {
+                    background-color: hsl(0, 0%, 89%);
+                    border: 3px solid red;
+                    width: 100%;
+                    height: 546px;
+                    /* padding: 1rem 0; */
+                    display: flex; 
+                    flex-direction: column;
+                ;
+
+                }
+                    .titulo-section{
+                        /* background-color: hsl(0, 0%, 89%); */
+                        padding-left: 0.5rem;
+                        /* background-color: hsl(214, 100%, 34%); */
+                        
+                        /* display: flex; */
+                        border: 3px solid yellow;
+                    }
+                    .articulo-aside{
+                        /* background-color: indianred; */
+                        border: 3px solid green;
+                        width: 100%;
+                        height: 100%;
+                        
+                        display: flex;
+                
+                    
+                    }
+
+
+
         aside {
             background-color: hsl(0, 0%, 65%);
             flex: 1 1 39%;
@@ -114,7 +172,7 @@ body {
             align-items: center;
         }
             .titulo-aside {
-                background-color: magenta;
+                /* background-color: magenta; */
                 margin: 2rem 0  ;
             }
             .div-aside {
@@ -130,6 +188,7 @@ body {
     .footer {
         background-color: hsl(214, 92%, 54%);
         height: 162px;
+        padding-left: 3rem;
 
         display: flex;
         flex-direction: row;
@@ -137,7 +196,7 @@ body {
         align-items: center;
     }
         .titulo-footer {
-            background-color: magenta;
+            /* background-color: magenta; */
 
             /* display: flex; */
             /* flex-direction: row; */
