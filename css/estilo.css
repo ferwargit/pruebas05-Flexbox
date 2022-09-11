@@ -247,3 +247,32 @@ aside {
     justify-content: start;
     align-items: center;
 }
+
+@media all and (max-width: 800px) {
+    .contenido {
+        height: auto;
+        flex-flow: column nowrap;
+    }
+    
+    .nav-2 {
+        padding: 0 0 2rem 0;
+
+    }
+
+    .div-nav-2 {
+        height: 275.4px;
+    }
+    
+    .main {
+        margin: 2rem 0;
+        padding: 0 0 2rem 0;
+    }
+
+    .aside {
+        padding: 0 0 2rem 0;
+    }
+
+    .div-aside {
+        height: 275.4px;
+    }
+}
