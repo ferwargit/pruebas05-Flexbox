@@ -108,7 +108,6 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .section {
@@ -275,6 +274,10 @@ aside {
     .main {
         margin: 2rem 0;
         padding: 0 0 2rem 0;
+    }
+    .titulo-main {
+        padding-left: 0rem;
+        align-self: center;
     }
     .section {
         margin-bottom: 0.75rem;
