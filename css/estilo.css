@@ -276,6 +276,9 @@ aside {
         margin: 2rem 0;
         padding: 0 0 2rem 0;
     }
+    .section {
+        margin-bottom: 0.75rem;
+    }
     .aside {
         padding: 0 0 2rem 0;
     }
